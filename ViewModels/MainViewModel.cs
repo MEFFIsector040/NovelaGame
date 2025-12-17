@@ -29,7 +29,7 @@ namespace CourseProject.ViewModels
 
             CurrentScene = _gameService.GetCurrentScene();
             UpdateAvailableChoices();
-            AddMessage("Добро пожаловать в игру 'Тайны отеля'!");
+            AddMessage("Добро пожаловать в игру 'Жизнь Безымянного Героя'!");
         }
 
         public Scene CurrentScene
